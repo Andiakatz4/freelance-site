@@ -1,0 +1,51 @@
+body {
+    background: #105428;
+}
+#home-tab  {
+    background: #10544a;
+    border: #4a1054;
+    height: 65px;
+    width: 150px;
+}
+#profile-tab {
+    background: #10544a;
+    border: #4a1054;;
+    height: 65px;
+    width: 150px;
+}
+#portfolio-tab {
+    background: #10544a;
+    border: #4a1054;;
+    height: 65px;
+    width: 150px;
+}
+#contact-tab {
+    background: #10544a;
+    border: #4a1054;
+    height: 65px;
+    width: 150px;
+}
+#myTab {
+    background: #10544a;
+    border: #10544a;
+    height: 75px;
+}
+
+.color-1 {
+    color: #105428;
+}
+.color-2 {
+    color: #10544a;
+}
+.color-3 {
+    color: #103c54;
+}
+.color-4 {
+    color: #101a54;
+}
+.color-5 {
+    color: #281054;
+}
+.color-6 {
+    color: #4a1054;
+}
