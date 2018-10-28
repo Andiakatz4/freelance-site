@@ -1,36 +1,51 @@
 body {
     background: #105428;
 }
+.header {
+    background: #10544a;
+    height: 120px;
+    width: 1330px;
+}
 #home-tab  {
     background: #10544a;
-    border: #4a1054;
-    height: 65px;
+    color: #103c54;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
     width: 150px;
 }
-#profile-tab {
+#about-tab {
     background: #10544a;
-    border: #4a1054;;
-    height: 65px;
+    color: #103c54;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
     width: 150px;
 }
 #portfolio-tab {
     background: #10544a;
-    border: #4a1054;;
-    height: 65px;
+    color: #103c54;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
     width: 150px;
 }
 #contact-tab {
     background: #10544a;
-    border: #4a1054;
-    height: 65px;
+    color: #103c54;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
     width: 150px;
 }
 #myTab {
     background: #10544a;
     border: #10544a;
-    height: 75px;
 }
-
+#logo {
+    height: 75px;
+    width: 150px;
+}
 .color-1 {
     color: #105428;
 }
