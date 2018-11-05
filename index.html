@@ -12,12 +12,14 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
 </head>
 
 <body>
     <!--Navigation Bar-->
-    <div class="header">
-        <a class="navbar-brand" id="logo"><img src="assets/images/Web-logo (2).png"></a>
+    <div class="container" id="header">
+        <a class="navbar-brand" id="logo"><img src="assets/images/Web-logo.png"></a>
         <ul class="nav justify-content-center">
             <li class="nav-item">
                 <a class="nav-link active" id="home-tab" data-toggle="tab" href="index.html" role="tab" aria-controls="home"
@@ -36,12 +38,12 @@
                     aria-selected="false">Contact</a>
             </li>
         </ul>
-        <div class="tab-content" id="myTabContent">
+        <!-- <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">meeew</div>
             <div class="tab-pane fade" id="about" role="tabpanel" aria-labelledby="about-tab">rawr</div>
             <div class="tab-pane fade" id="portfolio" role="tabpanel" aria-labelledby="portfolio-tab">growl</div>
             <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
-        </div>
+        </div> -->
     </div>
 
     <!--Home-->
@@ -54,7 +56,7 @@
             </header>
 
             <footer>
-                <a href="#portfolio" class="button scrolly">See My Portfolio</a>
+                <a href="#about" class="button scrolly">Learn More About Me</a>
             </footer>
 
         </div>
@@ -68,58 +70,106 @@
             <a class="image.featured"> <img src="assets/images/me.png" style="display: block; margin-left: auto;
                 margin-right: auto;" /></a>
 
-            <p>I am a Full Stack Web Developer, who is innovative, creative and design focused. I am currently located in San Diego, CA and am a recent graduate of UCSD Extension's Coding Bootcamp. Here I gained the extensive knowledge of working with HTML, CSS, Bootstrap, JavaScript, jQuery, API's, AJAX, Firebase, Express.js, Handlebars.js, MySQL, Sequelize.js, Node.js, MongoDB, Mongoose, React, Java, Github and Heroku. I also have an undergraduate degree in Hospitality and Tourism Management and a minor in Business Admnistration from San Francisco State Univeristy. <br> <br>I am aiming to combine my skill of Hospitality and Web Development to create extrodinary web applications, while growing with an organization where I can enhance my current knowledge and implement new technologies for the betterment of the organization. </p>
+            <p>I am a Full Stack Web Developer, who is innovative, creative and design focused. I am currently located
+                in San Diego, CA and am a recent graduate of UCSD Extension's Coding Bootcamp. Here I gained the
+                extensive knowledge of working with HTML, CSS, Bootstrap, JavaScript, jQuery, API's, AJAX, Firebase,
+                Express.js, Handlebars.js, MySQL, Sequelize.js, Node.js, MongoDB, Mongoose, React, Java, Github and
+                Heroku. I also have an undergraduate degree in Hospitality and Tourism Management and a minor in
+                Business Admnistration from San Francisco State Univeristy. <br> <br>I am aiming to combine my skill of
+                Hospitality and Web Development to create extrodinary web applications, while growing with an
+                organization where I can enhance my current knowledge and implement new technologies for the betterment
+                of the organization. </p>
+
+            <footer>
+                <a href="#portfolio" class="button scrolly">View My Portfolio</a>
+            </footer>
         </div>
 
     </section>
 
     <!--Portfolio-->
     <section id="portfolio">
-			<div class="container">
+        <div class="container">
 
-				<header>
-					<h2>Portfolio</h2>
-				</header>
+            <header>
+                <h2>Portfolio</h2>
+            </header>
 
-				<p>Below is a collection of all work and group projects that I have created in my time as a Web Developer:</p>
+            <p>Below is a collection of all work and group projects that I have created in my time as a Web Developer:</p>
 
-				<div class="row">
-					<div class="col-4 col-12-mobile">
-						<article class="item">
-							<a href="https://andiakatz4.github.io/Project-1-Travel/" target="_blank" class="image fit"><img src="images/carousel.PNG"
-								 alt="" /></a>
-							<header id="popoverOption" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="Carousel is a front-end web application which was built by a group of four Web Developers. It is a one stop application which was built for travelers so that they can search for restaurants, hotels and museum in their chosen destination and also gives them the ability to translate their language to a foreign language. <br> <br />
+            <div class="row">
+                <div class="col-4 col-12-mobile">
+                    <article class="item">
+                        <a href="https://andiakatz4.github.io/Project-1-Travel/" target="_blank" class="image fit"><img
+                                src="images/carousel.PNG" alt="" /></a>
+                        <header id="popoverOption" data-container="body" data-toggle="popover" data-placement="bottom"
+                            data-html="true" data-content="Carousel is a front-end web application which was built by a group of four Web Developers. It is a one stop application which was built for travelers so that they can search for restaurants, hotels and museum in their chosen destination and also gives them the ability to translate their language to a foreign language. <br> <br />
 
 							Languages used: HTML, CSS, Bootstrap, API’s: Google Maps, Google Translate, Google Places Library">
-								<h3>Carousel Travel Application</h3>
-							</header>
-						</article>
-					</div>
-					<div class="col-4 col-12-mobile">
-						<article class="item">
-							<a href="https://travelmate-20180802.herokuapp.com/" target="_blank" class="image fit"><img src="images/travel-mate.png"
-								 alt="" /></a>
-							<header id="popoverOption2" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="Travel Mate is a full-stack web application which was created to connect travelers to locals, who want to show them around their town based on mutual interests. It allows you to create a private profile which gives you the ability to search by location, mutual interests and allows both locals and travelers to search for each other.  <br> <br />
+                            <h3>Carousel Travel Application</h3>
+                        </header>
+                    </article>
+                </div>
+                <div class="col-4 col-12-mobile">
+                    <article class="item">
+                        <a href="https://travelmate-20180802.herokuapp.com/" target="_blank" class="image fit"><img src="images/travel-mate.png"
+                                alt="" /></a>
+                        <header id="popoverOption2" data-container="body" data-toggle="popover" data-placement="bottom"
+                            data-html="true" data-content="Travel Mate is a full-stack web application which was created to connect travelers to locals, who want to show them around their town based on mutual interests. It allows you to create a private profile which gives you the ability to search by location, mutual interests and allows both locals and travelers to search for each other.  <br> <br />
 							
 							Languages used: HTML, CSS, Bootstrap, JavaScript, jQuery, Express, Handlebars, MySQL, Sequelize">
-								<h3>Travel Mate Full Stack Application</h3>
-							</header>
-						</article>
-					</div>
-					<div class="col-4 col-12-mobile">
-						<article class="item">
-							<a href="https://re-arize.herokuapp.com/welcome" target="_blank" class="image fit"><img src="images/arize.PNG" alt=""
-								/></a>
-							<header id="popoverOption3" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="Arize is a full-stack web application built to make organizing your life and connecting with near by people much easier. This one stop application allows you to check your local weather, track your personal calendar, find local events, join and create local groups and create a personal to-do list from your user profile.  <br> <br />
+                            <h3>Travel Mate Full Stack Application</h3>
+                        </header>
+                    </article>
+                </div>
+                <div class="col-4 col-12-mobile">
+                    <article class="item">
+                        <a href="https://re-arize.herokuapp.com/welcome" target="_blank" class="image fit"><img src="images/arize.PNG"
+                                alt="" /></a>
+                        <header id="popoverOption3" data-container="body" data-toggle="popover" data-placement="bottom"
+                            data-html="true" data-content="Arize is a full-stack web application built to make organizing your life and connecting with near by people much easier. This one stop application allows you to check your local weather, track your personal calendar, find local events, join and create local groups and create a personal to-do list from your user profile.  <br> <br />
 
 							Languages used: HTML, CSS, ReactJS, NodeJS and Express Web Server, Mongo DB / Mongoose, JSON Web Tokens, NPM Packages: Flip Move, React Scroll, React Big Calendar">
-								<h3>Arize Full Stack Application</h3>
-							</header>
-						</article>
-					</div>
-		</section>
+                            <h3>Arize Full Stack Application</h3>
+                        </header>
+                    </article>
+                </div>
+                <footer>
+                    <a href="#contact" class="button scrolly">Contact Me</a>
+                </footer>
+            </div>
+            </div>
+    </section>
 
     <!--Contact-->
+    <section id="contact">
+        <div class="contact-form">
+            <p>CONTACT ME</p>
+            <form class="contact-form" action="contactform.php" method="post">
+                <div>
+                    <p>Name</p>
+                    <input type="text" name="name" placeholder="First Name">
+                    <input type="text" name="lastname" placeholder="Last Name"><br>
+                </div>
+                <input type="text" name="mail" placeholder="Your email"><br>
+                <input type="text" name="subject" placeholder="Subject"><br>
+                <textarea name="message" placeholder="Message"></textarea><br>
+                <button type="submit" name="submit">SEND MAIL</button>
+            </form>
+        </div>
+    </section>
+
+    <!--Footer: Social Links-->
+    <section id="footer">
+        <div class="container">
+
+            <div class="icons">
+                <a href="https://www.linkedin.com/in/andia-katz" target="_blank" class="fab fa-linkedin"><span class="label">Linkedin</span></a>
+                <a href="https://github.com/Andiakatz4" target="_blank" class="fab fa-github-square"><span class="label">Github</span></a></li>
+                <a href="mailto:andiakatz@gmail.com" class="fas fa-envelope"><span class="label">Email Me</span></a></li>
+            </div>
+        </div>
+    </section>
 
     <!--JS Scripts-->
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
