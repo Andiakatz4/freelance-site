@@ -6,6 +6,9 @@ body {
     height: 120px;
     width: 1330px;
 }
+#header {
+    background: #10544a;
+}
 #home-tab  {
     background: #10544a;
     color: #103c54;
@@ -45,6 +48,40 @@ body {
 #logo {
     height: 75px;
     width: 150px;
+}
+h2 {
+    color: #101a54;
+    text-align: left;
+}
+.alt {
+    color: #101a54;
+    text-align: center;
+}
+#home {
+    text-align: center;
+}
+#about{
+    text-align: center;
+}
+#portfolio {
+    text-align: center;
+    align-content: center;
+}
+#contact{
+    text-align: center;
+}
+#footer {
+    text-align: center;
+}
+.btn {
+    background:#103c54;
+    color: #105428;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.btn:hover {
+    background: #105428;
+    color: #103c54;
 }
 .color-1 {
     color: #105428;
