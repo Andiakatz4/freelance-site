@@ -1,14 +1,22 @@
 body {
     background: #105428;
+    background-image: url(assets/images/background2);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 }
+
+html {
+    height: 100%;
+}
+
 .header {
     background: #10544a;
     height: 120px;
     width: 1330px;
 }
-#header {
-    background: #10544a;
-}
+
 #home-tab  {
     background: #10544a;
     color: #103c54;
@@ -17,6 +25,7 @@ body {
     font-weight: bold;
     width: 150px;
 }
+
 #about-tab {
     background: #10544a;
     color: #103c54;
@@ -41,31 +50,63 @@ body {
     font-weight: bold;
     width: 150px;
 }
+
 #myTab {
     background: #10544a;
     border: #10544a;
 }
+
 #logo {
     height: 75px;
     width: 150px;
 }
+
 h2 {
     color: #101a54;
     text-align: left;
 }
+
 .alt {
     color: #101a54;
     text-align: center;
 }
+#header {
+    background: #10544a;
+}
+
 #home {
     text-align: center;
+    height: 500px;
+    margin: 25px;
 }
+
 #about{
     text-align: center;
 }
+
+.image {
+    margin-bottom: 120px;
+}
+
 #portfolio {
     text-align: center;
     align-content: center;
+}
+
+.carousel {
+    height: 100px;
+    width: 350px;
+    border: 120px;
+}
+
+.travelmate {
+    height: 200px;
+    width: 350px;
+}
+
+.arize {
+    height: 200px;
+    width: 350px;
 }
 #contact{
     text-align: center;
@@ -78,10 +119,18 @@ h2 {
     color: #105428;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    margin: 100px;
+    scroll-behavior: smooth;
+    
 }
 .btn:hover {
     background: #105428;
     color: #103c54;
+}
+
+p {
+    margin: 60px;
+    color: #281054;
 }
 .color-1 {
     color: #105428;
