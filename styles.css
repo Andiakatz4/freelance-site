@@ -86,7 +86,7 @@ h2 {
     background: #10544a;
     width: 100%;
     top: 0;
-    padding: 10px; 
+    padding: 0px; 
     margin: 0;
     box-shadow: 0px 0px 10px 10px #10544a;
 }
@@ -198,23 +198,16 @@ figcaption {
 /* Contact Form */
 
 input[name=name] {
-    width: 50%;
+    width: 49.5%;
     float: left;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
 }
 
-input[name=lastname] {
-    width: 50%;
-    float: right;
-    padding: 12px 20px;
-    margin: 8px 0px 0px 2px;
-    box-sizing: border-box;
-}
-
 input[name=mail] {
-    width: 100%;
+    width: 49.5%;
+    float: right;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -231,13 +224,26 @@ textarea {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
+    height: 150px;
     box-sizing: border-box;
 }
 
-/* Social Icons */
+::placeholder {
+    color: #103c54;
+}
 
-.icons {
-    
+/* Social Icons */
+ .fa-linkedin-in {
+    color: #15A4D0;
+    padding-top: 20px;
+}
+
+.fa-github {
+    color: #15A4D0;
+}
+
+.fa-envelope {
+color: #15A4D0;
 }
 
 .color-1 {
