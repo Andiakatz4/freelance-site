@@ -18,9 +18,19 @@ html {
     width: 1330px;
 }
 
+#header {
+    background: #103c54;
+    width: 100%;
+    top: 0;
+    padding: 0px; 
+    margin: 0;
+    box-shadow: 0px 0px 10px 10px #103c54;
+}
+
+
 #home-tab  {
-    background: #10544a;
-    color: #103c54;
+    background: #103c54;
+    color: #42AA5D;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: bold;
@@ -28,8 +38,8 @@ html {
 }
 
 #about-tab {
-    background: #10544a;
-    color: #103c54;
+    background: #103c54;
+    color: #42AA5D;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: bold;
@@ -37,8 +47,8 @@ html {
 }
 
 #portfolio-tab {
-    background: #10544a;
-    color: #103c54;
+    background: #103c54;
+    color: #42AA5D;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: bold;
@@ -46,8 +56,8 @@ html {
 }
 
 #contact-tab {
-    background: #10544a;
-    color: #103c54;
+    background: #103c54;
+    color: #42AA5D;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: bold;
@@ -55,8 +65,9 @@ html {
 }
 
 #myTab {
-    background: #10544a;
-    border: #10544a;
+    background: #103c54;
+    border: #103c54;
+    margin-left: 120px;
 }
 
 #logo {
@@ -82,15 +93,6 @@ h2 {
     margin-top: 50px;
 }
 
-#header {
-    background: #10544a;
-    width: 100%;
-    top: 0;
-    padding: 0px; 
-    margin: 0;
-    box-shadow: 0px 0px 10px 10px #10544a;
-}
-
 /* Home */
 #home {
     text-align: center;
@@ -100,6 +102,22 @@ h2 {
 
 #about_button {
     margin-top: 100px;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+#about_button:hover {
+    margin-top: 100px;
+}
+
+#about_button:active {
+    background: #42AA5D;
+    color: #103c54;
+    font-family: 'Montserrat', sans-serif;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
 }
 
 /*About*/
@@ -123,7 +141,22 @@ p {
 }
 
 #portfolio_button {
-    
+    margin-top: 0;
+}
+
+#portfolio_button:hover {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+#portfolio_button:active {
+    background: #42AA5D;
+    color: #103c54;
+    font-family: 'Montserrat', sans-serif;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
 }
 
 /* Portfolio */
@@ -184,8 +217,23 @@ figcaption {
 
 }
 
-#contact-button {
+#contact_button {
   margin-top: 100px;
+}
+
+#contact_button:hover {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+#contact_button:active {
+    background: #42AA5D;
+    color: #103c54;
+    font-family: 'Montserrat', sans-serif;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
 }
 
 #contact{
@@ -199,14 +247,20 @@ figcaption {
 .btn-secondary {
     background:#103c54;
     color: #42AA5D;
-    outline: none;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+}
+
+.btn:active, .btn:focus {
+    background: #42AA5D;
+    color: #103c54;
+
 }
 
 .btn:hover {
     background: #42AA5D;
     color: #103c54;
+
 }
 
 /* Contact Form */
@@ -246,8 +300,23 @@ textarea {
     color: #103c54;
 }
 
-#mail-button {
+#mail_button {
     margin-top: 30px;
+}
+
+#mail_button:hover {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+  
+#mail_button:active {
+    background: #42AA5D;
+    color: #103c54;
+    font-family: 'Montserrat', sans-serif;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
 }
 
 /* Social Icons */
